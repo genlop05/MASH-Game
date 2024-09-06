@@ -1,22 +1,24 @@
 /* Body styling */
 body {
-  background: #713e94;
-  color: #fff;
-  font-family: Helvetica, Arial;
+  background: #ffdae6;
+  color: #c26784;
+  font-family: emoji;
   font-size: 27px;
   font-weight: 300;
   line-height: 1.65em;
   margin: 0 auto;
   max-width: 960px;
-  padding: 40px 10px;  
+  padding: 40px 10px; 
 }
 
 
 /* Heading Styles */
 h1 {
-  font-size: 60px;
-  color: #fff;
+  font-size: 80px;
+  color: #c26784;
   text-align: center;
+  font-family: emoji;
+  font-style: italic;
 }
 
 
@@ -30,9 +32,9 @@ h1 {
 /* Submit Button, Columns, Questions, and Inputs */
 .button-submit {
   background: transparent;
-  border: 3px solid #fff;
+  border: 1px solid #ddafaf;
   border-radius: 6px;
-  color: #fff;
+  color: #c26784;
   cursor: pointer; 
   display: block;
   font-size: 20px;
@@ -40,6 +42,12 @@ h1 {
   margin: 0 auto 60px;
   padding: 1em 2em; 
   text-align: center; 
+}
+
+.button-submit:hover {
+    box-shadow: -5px 7px 3px rgb(177, 30, 48, .16);
+    border: 1px solid #ddafaf;
+    color: #c26784;
 }
 
 .bucket {
@@ -65,7 +73,7 @@ h1 {
 .choice-bucket input {
   border: 0;
   border-radius: 6px;
-  color: #713e94;
+  color: #c26784;
   font-size: 18px;
   margin: 15px 4%;
   outline: 0;
