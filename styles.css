@@ -14,7 +14,7 @@ body {
 
 /* Heading Styles */
 h1 {
-  font-size: 80px;
+  font-size: 60px;
   color: #c26784;
   text-align: center;
   font-family: emoji;
@@ -92,8 +92,6 @@ h1 {
   margin-left: 30px;
   opacity: .8;
 }
-
-
 
 /* Answer Div */
 #answers {
